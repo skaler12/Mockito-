@@ -31,7 +31,5 @@ public class CarController {
     public Car addCar(Car car){
         return carRepository.save(car);
     }
-    public boolean getTrue(){
-        return true;
-    }
+
 }

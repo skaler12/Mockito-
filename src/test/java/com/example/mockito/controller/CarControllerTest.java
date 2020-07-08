@@ -21,6 +21,7 @@ class CarControllerTest {
     @Test
     void getCars() {
         //given
+        //zamiast ten  linijki mozna dac po prostu @Mock i CarController carController 
     CarController carController = mock(CarController.class);
         given(carController.getCars()).willReturn(preapareMockData());
         //when
